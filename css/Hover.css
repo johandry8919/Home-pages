@@ -1,0 +1,35 @@
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(126, 126, 126, 0.733);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.1s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }

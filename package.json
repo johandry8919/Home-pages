@@ -9,6 +9,7 @@
   "author": "johandry rojas",
   "license": "ISC",
   "dependencies": {
+    "hover.css": "^2.3.2",
     "sass": "^1.49.8"
   }
 }
